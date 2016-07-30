@@ -155,13 +155,11 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="0" y2="80" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="80" x3="-27.94" y3="40" textsize="1.778" layer="20"/>
 <wire x1="0" y1="80.01" x2="0" y2="83.82" width="0" layer="20"/>
 <wire x1="0" y1="83.82" x2="95.25" y2="83.82" width="0" layer="20"/>
 <wire x1="95.25" y1="83.82" x2="95.25" y2="12.7" width="0" layer="20"/>
 <wire x1="95.25" y1="12.7" x2="92.71" y2="12.7" width="0" layer="20"/>
 <wire x1="92.71" y1="12.7" x2="92.71" y2="11.43" width="0" layer="20"/>
-<dimension x1="0" y1="83.82" x2="95.25" y2="83.82" x3="47.625" y3="91.44" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
