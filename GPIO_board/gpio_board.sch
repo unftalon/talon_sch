@@ -3852,13 +3852,13 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="EZ"/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="EZ"/>
-<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="+3.3V"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SG1" library="SparkFun-Electromechanical" deviceset="BUZZER" device="PTH"/>
 <part name="U$2" library="talon_lbr" deviceset="PROTO_GRID" device=""/>
 <part name="X1" library="con-pc" deviceset="PCI-E-164" device="SLOT"/>
-<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="12V"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="12V"/>
+<part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3880,13 +3880,13 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <instance part="GND3" gate="1" x="198.12" y="83.82"/>
 <instance part="R4" gate="G$1" x="129.54" y="170.18" rot="R90"/>
 <instance part="R5" gate="G$1" x="134.62" y="170.18" rot="R90"/>
-<instance part="SUPPLY5" gate="G$1" x="71.12" y="147.32"/>
 <instance part="SUPPLY6" gate="G$1" x="132.08" y="180.34"/>
 <instance part="SG1" gate="G$1" x="175.26" y="104.14"/>
 <instance part="U$2" gate="G$1" x="139.7" y="50.8" rot="R270"/>
 <instance part="X1" gate="G$1" x="254" y="91.44"/>
-<instance part="SUPPLY1" gate="G$1" x="228.6" y="203.2"/>
 <instance part="GND4" gate="1" x="228.6" y="162.56"/>
+<instance part="SUPPLY1" gate="G$1" x="223.52" y="200.66"/>
+<instance part="SUPPLY2" gate="G$1" x="68.58" y="144.78"/>
 </instances>
 <busses>
 </busses>
@@ -4018,20 +4018,13 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="3.3V"/>
-<wire x1="73.66" y1="129.54" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-<wire x1="71.12" y1="129.54" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="X1" gate="G$1" pin="A1"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<wire x1="223.52" y1="200.66" x2="223.52" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="A1"/>
 <wire x1="241.3" y1="193.04" x2="228.6" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="193.04" x2="228.6" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="A2"/>
 <wire x1="241.3" y1="190.5" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="190.5" x2="228.6" y2="193.04" width="0.1524" layer="91"/>
-<junction x="228.6" y="193.04"/>
 <pinref part="X1" gate="G$1" pin="A3"/>
 <wire x1="241.3" y1="187.96" x2="228.6" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="187.96" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
@@ -4049,6 +4042,8 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="200.66" y1="185.42" x2="228.6" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="175.26" x2="200.66" y2="185.42" width="0.1524" layer="91"/>
 <junction x="200.66" y="185.42"/>
+<wire x1="223.52" y1="193.04" x2="228.6" y2="193.04" width="0.1524" layer="91"/>
+<junction x="228.6" y="193.04"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4080,6 +4075,12 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="134.62" y1="175.26" x2="134.62" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="177.8" x2="132.08" y2="177.8" width="0.1524" layer="91"/>
 <junction x="132.08" y="177.8"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+<wire x1="73.66" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="129.54" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
