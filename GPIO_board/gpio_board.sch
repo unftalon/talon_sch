@@ -3870,7 +3870,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <instance part="J2" gate="G$1" x="172.72" y="170.18"/>
 <instance part="J3" gate="G$1" x="195.58" y="170.18"/>
 <instance part="GND1" gate="1" x="134.62" y="142.24"/>
-<instance part="GND2" gate="1" x="63.5" y="101.6"/>
+<instance part="GND2" gate="1" x="63.5" y="93.98"/>
 <instance part="Q1" gate="G$1" x="177.8" y="134.62"/>
 <instance part="Q2" gate="G$1" x="195.58" y="134.62"/>
 <instance part="Q3" gate="G$1" x="215.9" y="134.62"/>
@@ -3898,7 +3898,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="63.5" y1="124.46" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="AGND"/>
-<wire x1="63.5" y1="111.76" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="111.76" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
 <junction x="63.5" y="111.76"/>
 </segment>
