@@ -3909,7 +3909,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <instance part="R1" gate="G$1" x="162.56" y="132.08"/>
 <instance part="R2" gate="G$1" x="162.56" y="127"/>
 <instance part="R3" gate="G$1" x="162.56" y="121.92"/>
-<instance part="GND3" gate="1" x="208.28" y="101.6"/>
+<instance part="GND3" gate="1" x="198.12" y="91.44"/>
 <instance part="R4" gate="G$1" x="129.54" y="170.18" rot="R90"/>
 <instance part="R5" gate="G$1" x="134.62" y="170.18" rot="R90"/>
 <instance part="SUPPLY6" gate="G$1" x="132.08" y="180.34"/>
@@ -3942,7 +3942,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="198.12" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="109.22" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="208.28" y1="104.14" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="93.98" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
 <junction x="198.12" y="109.22"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="198.12" y1="99.06" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
@@ -3951,6 +3951,18 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="177.8" y1="101.6" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="99.06" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
 <junction x="198.12" y="99.06"/>
+<wire x1="160.02" y1="38.1" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="32"/>
+<wire x1="160.02" y1="38.1" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="A68"/>
+<wire x1="177.8" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="20.32" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="20.32" x2="238.76" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-5.08" x2="195.58" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-5.08" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="38.1" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
+<junction x="177.8" y="38.1"/>
+<junction x="177.8" y="99.06"/>
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="1"/>
@@ -4288,18 +4300,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="U$2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<wire x1="160.02" y1="38.1" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="32"/>
-<wire x1="160.02" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="A68"/>
-<wire x1="241.3" y1="20.32" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="20.32" x2="238.76" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="-5.08" x2="195.58" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-5.08" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$30" class="0">
 <segment>
 <wire x1="157.48" y1="35.56" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
@@ -4434,7 +4434,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="228.6" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="N$43" class="1">
 <segment>
 <wire x1="124.46" y1="2.54" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="256"/>
