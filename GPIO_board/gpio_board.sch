@@ -3833,7 +3833,9 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.4064" drill="0">
+</class>
+<class number="1" name="Ground" width="0.6096" drill="0">
 </class>
 </classes>
 <parts>
@@ -3891,7 +3893,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="73.66" y1="124.46" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
