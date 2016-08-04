@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3093,7 +3093,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="19" y1="0.35" x2="19" y2="5.65" width="0" layer="20"/>
 <wire x1="18.7" y1="0.05" x2="19" y2="0.35" width="0" layer="20"/>
 <wire x1="21" y1="0.35" x2="21.3" y2="0.05" width="0" layer="20"/>
-<wire x1="92" y1="11.55" x2="92" y2="0.35" width="0" layer="20"/>
 <wire x1="92" y1="0.35" x2="91.7" y2="0.05" width="0" layer="20"/>
 <wire x1="21.3" y1="0.05" x2="91.7" y2="0.05" width="0" layer="20"/>
 <wire x1="19" y1="5.7" x2="19" y2="7.8" width="0" layer="20"/>
@@ -3104,7 +3103,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="5.5" y1="11.55" x2="8" y2="9.05" width="0" layer="20" curve="-90"/>
 <wire x1="3" y1="9.05" x2="3" y2="4.75" width="0" layer="20"/>
 <wire x1="8" y1="5.65" x2="8" y2="9.05" width="0" layer="20"/>
-<wire x1="92" y1="11.55" x2="93" y2="11.55" width="0" layer="20"/>
 <wire x1="46.5" y1="5.5" x2="46.5" y2="2" width="0.7" layer="33"/>
 <wire x1="45.5" y1="5.5" x2="45.5" y2="2" width="0.7" layer="33"/>
 <wire x1="44.5" y1="5.5" x2="44.5" y2="2" width="0.7" layer="33"/>
@@ -3435,6 +3433,9 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <smd name="A82" x="91.5" y="3.75" dx="4" dy="0.7" layer="16" roundness="40" rot="R90" cream="no"/>
 <text x="0" y="-1.96" size="1.27" layer="25">&gt;NAME</text>
 <text x="12.5" y="-2.04" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="92" y1="11.37" x2="92.17" y2="11.55" width="0" layer="21" curve="-93.366461"/>
+<wire x1="92.17" y1="11.55" x2="93" y2="11.55" width="0" layer="21"/>
+<wire x1="92" y1="0.35" x2="92" y2="11.37" width="0" layer="21"/>
 </package>
 <package name="PCI-E-164">
 <description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt;&lt;p&gt; 
