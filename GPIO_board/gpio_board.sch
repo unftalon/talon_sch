@@ -3433,9 +3433,9 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <smd name="A82" x="91.5" y="3.75" dx="4" dy="0.7" layer="16" roundness="40" rot="R90" cream="no"/>
 <text x="0" y="-1.96" size="1.27" layer="25">&gt;NAME</text>
 <text x="12.5" y="-2.04" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="92" y1="11.37" x2="92.17" y2="11.55" width="0" layer="21" curve="-93.366461"/>
-<wire x1="92.17" y1="11.55" x2="93" y2="11.55" width="0" layer="21"/>
-<wire x1="92" y1="0.35" x2="92" y2="11.37" width="0" layer="21"/>
+<wire x1="92" y1="11.37" x2="92.17" y2="11.55" width="0" layer="20" curve="-93.366461"/>
+<wire x1="92.17" y1="11.55" x2="93" y2="11.55" width="0" layer="20"/>
+<wire x1="92" y1="0.35" x2="92" y2="11.37" width="0" layer="20"/>
 </package>
 <package name="PCI-E-164">
 <description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt;&lt;p&gt; 
