@@ -41,5 +41,10 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+<<<<<<< HEAD
 *.epf
 GPIO_board/eagle.epf
+=======
+
+desktop.ini
+>>>>>>> 23c6a6f334941cd93d8a10340e0bec5eea5fd997
